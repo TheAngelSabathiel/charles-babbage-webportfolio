@@ -26,7 +26,7 @@
                                 <button type="submit" class="submit-btn pl-5 pr-5" :disabled="isLoading">{{ isLoading ? "Sending . . ." : "Submit"}}</button>
                             </div>
                             <div class="d-flex justify-content-end mt-2">
-                                <div re="recaptchaContainer"></div>
+                                <div ref="recaptchaContainer"></div>
                             </div>
                         </form>
                         
